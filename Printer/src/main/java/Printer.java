@@ -33,7 +33,7 @@ public class Printer {
     }
 
     public int reduceToner(){
-        if(toner > paper){
+        if(toner > copies){
         return this.toner - this.copies;}
         else { return this.toner;}
     }
