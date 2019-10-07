@@ -14,12 +14,12 @@ public class PrinterTest {
 
     @Test
     public void getPaper(){
-     assertEquals(100, printer.getPaper());
+     assertEquals(80, printer.getPaper());
     }
 
     @Test
     public void reducePaper(){
-     assertEquals(80, printer.reducePaper());
+     assertEquals(100, printer.reducePaper());
     }
 
     @Test

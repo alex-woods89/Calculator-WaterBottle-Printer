@@ -15,7 +15,9 @@ public class Printer {
     }
 
     public int reducePaper(){
-        return this.paper - copies;
+        if (paper > copies)
+        { return this.paper - copies; }
+        else {return this.paper;}
     }
 
     public String checkPaper(){
@@ -31,7 +33,9 @@ public class Printer {
     }
 
     public int reduceToner(){
-        return this.toner - this.copies;
+        if(toner > paper){
+        return this.toner - this.copies;}
+        else { return this.toner;}
     }
 
     public int printCopies(){
