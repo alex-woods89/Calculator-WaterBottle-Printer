@@ -2,9 +2,11 @@ public class Printer {
 
     private int paper;
     private int toner;
+    private int copies;
 
-    public Printer( int paper, int toner){
+    public Printer( int paper, int toner, int copies){
         this.paper = paper;
+        this.copies = copies;
         this.toner = toner;
     }
 
@@ -12,7 +14,30 @@ public class Printer {
         return this.paper;
     }
 
-    public int canPrint(){
-        return this.paper - 1;
+    public int reducePaper(){
+        return this.paper - copies;
     }
-}
+
+    public String checkPaper(){
+       if (copies > paper){
+           return "not enough paper";
+       } else {
+           return "You have enough paper";
+       }
+    }
+
+    public int getToner(){
+        return this.toner;
+    }
+
+    public int reduceToner(){
+        return this.toner - this.copies;
+    }
+
+    public int printCopies(){
+        return this.copies = 0;
+    }
+
+
+    }
+

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd2406a-188e-430f-be73-97a900722693" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Printer/Printer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Printer/src/main/java/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Printer/src/test/java/PrinterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printer/src/main/java/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/src/main/java/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printer/src/test/java/PrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/src/test/java/PrinterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printer/target/classes/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/target/classes/Printer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Printer/target/test-classes/PrinterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Printer/target/test-classes/PrinterTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
